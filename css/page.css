@@ -22,6 +22,26 @@ input:focus {
 select:focus {
     box-shadow: unset!important;
 }
+
+/*nav*/
+.navbar-expand-custom {
+    padding: 17.5px 0;
+    justify-content: center;
+}
+.nav-custom {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    color: #312d2e;
+}
+
+
 .button_order {
     border: 1px solid #231F20;
     box-sizing: border-box;
@@ -94,7 +114,7 @@ select:focus {
 }
 .kitchen_child {
     padding: 4%;
-    margin-top: -5%;
+    margin-top: -7%;
 }
 .list_room {
     margin-bottom: 10%;
@@ -221,18 +241,4 @@ select:focus {
 }
 @media(max-width:320px){
 
-}
-
-/*custom nav*/
-.nav-custom {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 17px;
-    text-align: center;
-    margin: 0px 10px;
-    text-transform: uppercase;
-    color: #312d2e;
 }

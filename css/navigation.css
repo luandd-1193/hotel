@@ -1,0 +1,16 @@
+.navbar-expand-custom {
+    padding: 17.5px 0;
+    justify-content: center;
+}
+.nav-custom {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    color: #312d2e;
+}
