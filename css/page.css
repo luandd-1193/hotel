@@ -1,0 +1,238 @@
+@font-face {
+  font-family: SVN-Minerva Modern;
+  src: url(../font/SVN-Gallery Modern.otf);
+}
+
+body {
+  font-family: SVN-Minerva Modern;
+}
+
+.w-40{width: 40% !important}
+.w-55{width: 55% !important}
+.w-60{width: 60% !important}
+.w-70{width: 70% !important}
+.w-80{width: 80% !important}
+.w-90{width: 90% !important}
+.w-89{width: 89% !important}
+.fz-54{font-size:54px;}
+.text-gray{color:#939598;}
+input:focus {
+    box-shadow: unset!important;
+}
+select:focus {
+    box-shadow: unset!important;
+}
+.button_order {
+    border: 1px solid #231F20;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 14px 0;
+    font-size: 18px;
+    width: 140px;
+}
+.box_right_header {
+    right: 0;
+    top: 0;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.box_right_header select {
+    float: left;
+    margin-right: 5%;
+    width: 95px;
+    border: none;
+    font-size: 16px;
+}
+.slick_banner img{ width: 100%;max-height: 900px; }
+.slick_banner{overflow: hidden;}
+.top_content img{
+    width: 30px;
+}
+.top_content p{
+    font-size: 28px;
+}
+.top_content {
+    margin: 10% 0;
+}
+.left_ct p {
+    font-size:54px;
+}
+.right_ct p {
+    font-size:20px;
+    width: 65%;
+}
+.content_ct {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.right_ct {
+    margin-top: 10%;
+}
+.room_child1{
+    margin-right: 5%;
+}
+.room img{
+    width: 100%;
+    max-height: 450px;
+    min-height: 450px;
+}
+.room p {
+    font-size: 36px;
+}
+.room div p {
+    font-size: 20px;
+    float: left;
+    margin-right: 5%;
+}
+.kitchen{
+    background: url(../image/back1.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    min-height: 900px;
+}
+.kitchen_child {
+    padding: 4%;
+    margin-top: -5%;
+}
+.list_room {
+    margin-bottom: 10%;
+}
+.kitchen_child p, .pool_child p {
+    font-size: 20px;
+}
+.kitchen_child span, .pool_child span {
+    font-size: 54px;
+}
+.view_detail{
+    padding: 14px 50px;
+}
+.im_back_right{
+    right: 28%;
+    width: 48%;
+    top: 70px;
+}
+.pool_child, .promotion_child  {
+    margin: 0 10%;
+}
+.pool_back_right{
+    right: 10%;
+    width: 68%;
+    top: -50px;
+}
+.div_pool{
+    margin-top:8%;
+}
+.discover_offers div:nth-child(1) {
+    width: 35%;
+    float: left;
+    margin-right: 5%;
+}
+.discover_offers div:nth-child(2) {
+    width: 25%;
+    float: left;
+    margin-right: 5%;
+}
+.discover_offers div:nth-child(3) {
+    width: 30%;
+    float: left;
+}
+.discover_offers div:nth-child(1) img, .discover_offers div:nth-child(3) img {
+    min-height: 400px;
+    max-height: 400px;
+}
+.discover_offers div:nth-child(2) img{
+    min-height: 500px;
+    max-height: 500px;
+    margin-top:-10%;
+}
+.discover_offers div p {
+    font-size: 24px;
+}
+.title_box {
+    margin-bottom: 6%;
+}
+.discover_offers_father {
+    margin-top: 10%;
+}
+#input_email {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #939598;
+    font-size: 20px;
+    color: #939598;
+    border-radius: 0;
+    text-indent: 0;
+    background: unset;
+}
+.promotion{
+    background: rgba(147, 149, 152, 0.05);
+    padding: 5% 0;
+}
+.title_promotion{
+    font-size: 36px;
+    color: #231F20;
+}
+.submit_promotion {
+    border: 1px solid #231F20;
+    box-sizing: border-box;
+    background: #fff;
+    float: left;
+    padding: 13px 50px;
+    font-size: 16px;
+}
+#lang {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../image/Vector.png) no-repeat;
+    background-position: right 8px bottom 14px;
+}
+.div_follow_me_top{
+    margin-left: 11%;
+    margin-bottom: 5%;
+}
+.slick_fl{
+    margin-left: 11%;
+}
+.follow_me {
+    margin: 8% 0;
+}
+
+/*footer*/
+.top_footer{
+    background: #231F20;
+    padding: 5% 10%;
+}
+.footer-wrap {
+    padding-top: 43px;
+    background-size: cover;
+}
+.logo_footer{
+    border-bottom: 1px solid #939598;
+}
+.bottom_footer{
+    background: #939598;
+    padding: 5% 10%;
+}
+@media screen and (max-width: 667px){
+.mb-text-left{text-align: left !important}
+}
+@media(max-width:320px){
+
+}
+
+/*custom nav*/
+.nav-custom {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    color: #312d2e;
+}
